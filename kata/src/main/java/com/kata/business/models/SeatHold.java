@@ -1,4 +1,4 @@
-package com.kata.models;
+package com.kata.business.models;
 
 import java.time.LocalDateTime;
 

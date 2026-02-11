@@ -1,6 +1,6 @@
 package com.kata.config;
 
-import com.kata.models.SeatHold;
+import com.kata.business.models.SeatHold;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

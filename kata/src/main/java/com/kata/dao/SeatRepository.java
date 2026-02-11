@@ -1,7 +1,7 @@
 package com.kata.dao;
 
 import com.kata.enums.SeatStatus;
-import com.kata.models.Seat;
+import com.kata.dao.entities.Seat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

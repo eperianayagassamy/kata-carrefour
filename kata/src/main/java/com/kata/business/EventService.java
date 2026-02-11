@@ -4,7 +4,7 @@ package com.kata.business;
 import com.kata.dao.SeatRepository;
 import com.kata.dto.SeatResponseDTO;
 import com.kata.enums.SeatStatus;
-import com.kata.models.SeatHold;
+import com.kata.business.models.SeatHold;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package com.kata.dao;
 
 import com.kata.enums.SeatStatus;
-import com.kata.models.Event;
-import com.kata.models.Seat;
+import com.kata.dao.entities.Event;
+import com.kata.dao.entities.Seat;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

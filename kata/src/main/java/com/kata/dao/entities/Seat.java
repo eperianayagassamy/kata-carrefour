@@ -1,4 +1,4 @@
-package com.kata.models;
+package com.kata.dao.entities;
 
 import com.kata.enums.SeatStatus;
 import jakarta.persistence.Column;

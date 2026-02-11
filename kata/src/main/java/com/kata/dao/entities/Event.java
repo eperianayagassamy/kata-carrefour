@@ -1,4 +1,4 @@
-package com.kata.models;
+package com.kata.dao.entities;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
