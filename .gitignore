@@ -1,0 +1,7 @@
+.idea
+kata/mvnw.cmd
+kata/mvnw
+kata/.mvn
+kata/target
+kata/.gitattributes
+.DS_Store
