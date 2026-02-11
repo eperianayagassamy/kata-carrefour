@@ -9,6 +9,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -38,7 +39,7 @@ public class BookingController {
      * @param request DTO containing the seat ID and the user ID initiating the hold
      * @return a 201 CREATED status if the seat is holded
      */
-    @PostMapping("/hold")
+    @PostMapping
     @Operation(summary = "Hold a seat", description = "Creates a temporary 10-minute lock on a seat.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Seat successfully held"),
@@ -62,7 +63,7 @@ public class BookingController {
      * @param userId the unique identifier of the user performing the checkout
      * @return a 200 OK status if the confirmation is successful
      */
-    @PostMapping("/confirm/{seatId}")
+    @PatchMapping("{seatId}")
     @Operation(summary = "Confirm booking", description = "Finalizes the purchase and marks the seat as SOLD.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Purchase confirmed"),
